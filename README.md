@@ -89,7 +89,7 @@ HUB_NAME    = 'Pili_Hub_Name' # The Hub must be exists before use
 credentials = Pili::Credentials.new(ACCESS_KEY, SECRETE_KEY)
 hub = Pili::Hub.new(credentials, HUB_NAME)
 puts "Hub initialize =>\n#{hub.inspect}\n\n"
-```
+``` 
 
 
 ### Create a new Stream
